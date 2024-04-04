@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Evaluation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number of units used");
+        int y = scanner.nextInt(); 
+
+        if (y <= 10) {
+            System.out.println("Effective water utilisation");
+        } else {
+            System.out.println("Ineffective water utilisation");
+        }
+
+        scanner.close(); 
+    }
+}
